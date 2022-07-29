@@ -15,16 +15,16 @@ export default function Navbar() {
           <Link className="nav-link active" aria-current="page" to="/new">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" to="#">Sports</a>
+          <Link className="nav-link" to="#">Sports</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="#">Technology</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link disabled" to="#" tabindex="-1" aria-disabled="true">Buisness</Link>
+          <Link className="nav-link disabled" to="#"  aria-disabled="true">Buisness</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link disabled" to="#" tabindex="-1" aria-disabled="true">Political</Link>
+          <Link className="nav-link disabled" to="#"  aria-disabled="true">Political</Link>
         </li>
       </ul>
     </div>
