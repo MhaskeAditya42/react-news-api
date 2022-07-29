@@ -12,7 +12,7 @@ function App() {
 
         <Routes>
        
-          <Route path="/new" element={<NewsPage />} />
+          <Route path="" element={<NewsPage />} />
         </Routes>
       </Router>
     </>

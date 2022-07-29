@@ -7,7 +7,7 @@ console.log(data);
 
 const NewsPage = () => {
   return (
-    <div className="container d-flex my-3">
+    <div className="container d-flex flex-wrap my-3">
      
           {data.map((element, index) => {
             return (
