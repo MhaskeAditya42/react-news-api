@@ -26,6 +26,12 @@ export default function Navbar() {
         <li className="nav-item">
           <Link className="nav-link disabled" to="#"  aria-disabled="true">Political</Link>
         </li>
+        
+        <li className="nav-item">
+          <Link className="nav-link" to="/login"  aria-disabled="true">Login</Link>
+        </li>
+        
+
       </ul>
     </div>
   </div>
