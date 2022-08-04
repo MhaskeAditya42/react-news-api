@@ -14,8 +14,8 @@ const NewsPage = () => {
             return (
               <Card
                 key={index}
-                title={element.title}
-                description={element.description}
+                title={element.title.slice(0,45)}
+                description={element.description.slice(0,95)}
                 imageUrl={element.urlToImage}
                 newsUrl={element.url}
                 date={element.publishedAt}

@@ -9,7 +9,7 @@ export default function Login() {
 
   return (
     <>
-      <div className="container my-3 w-50">
+      <div className="container my-3 w-50 border border-secondary mb-5">
         <form>
           <div class="form-group my-3">
             <label for="exampleInputEmail1 ">Email address</label>
